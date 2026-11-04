@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+body {
+    background-color: 222;
+}
+
+.main-content {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: container;
+}
+
+.header-banner {
+    background-color: #1e65ff;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.brand-title {
+    color: #ffbb00;
+    margin: 0px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 20px 5px 20px;
+    color: #000000;
+}
+
+p {
+    margin: 0 20px 20px 20px;
+    color: #676767;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin: 0 20px 20px 20px;
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.card ul {
+    margin: 0;
+    padding-left: 20px;
+    color: #676767;
+}
+
+.card li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.footer-text {
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.button  {
+    background-color: #1e65ff;
+    color: orange;
+    padding: 10px;
+    border-radius: 999px;
+    margin-left: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.divisi-button {
+    background-color: #cedeff;
+    color: #1e65ff;
+    padding: 10px;
+    border-radius: 999px;
+    border: none;
+    margin-top: 20px;
+}
